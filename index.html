@@ -21,6 +21,32 @@
   </style>
 
   <link rel="icon" type="image/png" href="images/icons.png">
+  
+<!--禁止文字让选中http://t.csdn.cn/M2xJL-->  
+  <script language="Javascript">
+  document.oncontextmenu=new Function("event.returnValue=false");
+  document.onselectstart=new Function("event.returnValue=false");
+  </script>
+  
+  <script type="text/javascript">
+        document.onkeydown = function () {
+            if (window.event && window.event.keyCode == 123) {
+                event.keyCode = 0;
+                event.returnValue = false;
+                return false;
+            }
+        };
+  </script>
+  
+  <script type="text/javascript">
+  document.oncontextmenu=function(e){return false;}
+  </script>
+
+  <style>
+  body {-moz-user-select:none;}
+  </style>
+<!--禁止文字让选中http://t.csdn.cn/M2xJL-->  
+
   <!--
   <script src="jquery.min.js"></script>
   <script>
@@ -219,7 +245,7 @@
   <div class="w3-center w3-padding-24">
 
     Thanks for the sharing of website's <a href="https://github.com/YunheWang/HomePage"> the source code </a> from  outstanding senior researcher <a href="https://www.wangyunhe.site/">Yunhe Wang.</a></br>
-    Dear Yunhe Wang, if you see this website, you can add my wechat and get a free meal in Beijing.</br>
+    Dear Yunhe Wang, if you see this website, you can add my wechat zcd1121088348 and get a free meal in Beijing.</br>
     <!-- Wechat ID:zcd1121088348 just for Yunhe Wang -->
     No.
   <script type="text/javascript">
